@@ -23,11 +23,11 @@ Pastikan Anda sudah menginstal Python di sistem Anda (Kali Linux, Parrot OS, ata
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Siiwannn/xss-scanner](https://github.com/Siiwannn/xss-scanner.git)
-cd XSS-Scanner-Iwan0day
+git clone https://github.com/Siiwannn/xss-scanner.git
+cd xss-scanner
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the scanner
-python xss-scanner.py -u "[http://target-web.com/search.php](http://target-web.com/search.php)"
+python xss-scanner.py -u "http://target-web.com/search.php"
